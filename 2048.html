@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2048小游戏</title>
+  <link rel="stylesheet" href="./css/2048.css">
+</head>
+
+<body>
+  <div id="wrap">
+    <div class="box1 num2"></div>
+    <div class="box2 num4"></div>
+    <div class="box3 num8"></div>
+    <div class="box4 num16"></div>
+    <div class="box5 num32"></div>
+    <div class="box6 num64"></div>
+    <div class="box7 num128"></div>
+    <div class="box8 num256"></div>
+    <div class="box9 num512"></div>
+    <div class="box10 num1024"></div>
+    <div class="box11 num2048"></div>
+    <div class="box12"></div>
+    <div class="box13"></div>
+    <div class="box14"></div>
+    <div class="box15"></div>
+    <div class="box16"></div>
+  </div>
+  <div class="explain">
+    <span>玩法说明:</span>
+    <p>1.&nbsp;使用键盘WASD分别控制数字上左下右四个方向移动</p>
+    <p>2.&nbsp;当点击一个方向时，格子中当数字则会往那方向移动，直到不能再移动，如果有两个相邻的数字相同则会相加合并</p>
+    <p>3.&nbsp;当所有格子中的数字没办法再移动并且没有可合并的数字时，游戏结束！</p>
+  </div>
+  <script src="./js/2048.js"></script>
+</body>
+
+</html>
